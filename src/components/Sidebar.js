@@ -12,7 +12,7 @@ export default function Sidebar() {
 	return (
 		<>
 			<div className="flex">
-				<div className="flex flex-col w-full gap-1 p-2 pt-10 bg-gray-100 border-r border-gray-300 rounded">
+				<div className="flex flex-col w-full gap-1 p-2 pt-10 bg-gray-100 border-r border-gray-300">
 					<div>
 						<span className=" bg-blue-500 border border-blue-400 rounded-full py-2 px-4"></span>
 						<p className="text-xs mt-2">Motion</p>

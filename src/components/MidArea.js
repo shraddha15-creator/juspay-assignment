@@ -114,7 +114,7 @@ function MidArea({ area_list, add_list, event_values }) {
 					return (
 						<div className="w-60 flex" key={l.id}>
 							<Paper elevation={3} className="p-1">
-								<div className="border border-gray-300 p-1">
+								<div>
 									<Droppable droppableId={l.id} type="COMPONENTS">
 										{(provided) => {
 											return (
